@@ -7,6 +7,16 @@
 .buildlog/
 .history
 
+# Este projeto e um APLICATIVO (nao uma biblioteca), entao o pubspec.lock
+# deve ser versionado: ele fixa as versoes exatas das dependencias e garante
+# builds reproduziveis. A regra *.lock acima pega ele, entao reabrimos aqui.
+!pubspec.lock
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
 
 
 # Flutter repo-specific
